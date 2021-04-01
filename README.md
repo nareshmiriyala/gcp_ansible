@@ -15,9 +15,9 @@ Example project for configuring the following:
 After Google Cloud IAM is configured, configure ENV variables for GCP, for example.
 
 ```
-export GCP_PROJECT=66715125404
+export GCP_PROJECT=test
 export GCP_AUTH_KIND=serviceaccount
-export GCP_SERVICE_ACCOUNT_FILE=/Users/miriyaln/.gradle/sandbox-miriyaln-23998d1595dc.json
+export GCP_SERVICE_ACCOUNT_FILE=/Users/miriyaln/.gradle/sts.json
 export GCP_SCOPES=https://www.googleapis.com/auth/compute
 export GCP_REGION=australia-southeast1
 export GCP_ZONE=australia-southeast1-b
